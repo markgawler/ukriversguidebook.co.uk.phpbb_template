@@ -5,7 +5,10 @@
   "main": "Gruntfile.js",
   "dependencies": {},
   "devDependencies": {
-    "grunt-contrib-copy": "^1.0.0"
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-synchard": "github:reidransom/grunt-synchard"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
