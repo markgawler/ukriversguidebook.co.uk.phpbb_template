@@ -1,0 +1,58 @@
+.breadcrumbs.wrapped {
+  padding: 5px 15px;
+}
+.breadcrumbs {
+  margin-left: 0px;
+
+  li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  border-radius: 4px;
+  background-color: #cadceb;
+
+  li > .divider {
+    font-size: 14px;
+    margin-right: 0;
+    color: #105289;
+    background-color: #cadceb;
+  }
+
+  a::before {
+    font-family: IcoMoon;
+    font-size: 16px;
+    content: '\2023';
+    font-weight: bold;
+    padding: 0 .25em;
+    line-height: 20px;
+    vertical-align: bottom;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a:hover:before{
+    color: #d41141;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+  .crumb {
+    margin-left: -4px;
+  }
+
+  /* responsive search on right side */
+  .rightside {
+    font-family: FontAwesome;
+    float: right;
+
+    a::before {
+      content: '';
+    }
+  }
+  .sr-only {
+    display: none;
+  }
+}
