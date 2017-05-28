@@ -1,0 +1,23 @@
+{
+  "name": "ukriversguidebook.co.uk.phpbb_template",
+  "version": "1.0.0",
+  "description": "UKRGB phpBB Template for phpBB 3.2",
+  "main": "Gruntfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-copy": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markgawler/ukriversguidebook.co.uk.phpbb_template.git"
+  },
+  "author": "Mark Gawler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markgawler/ukriversguidebook.co.uk.phpbb_template/issues"
+  },
+  "homepage": "https://github.com/markgawler/ukriversguidebook.co.uk.phpbb_template#readme"
+}
