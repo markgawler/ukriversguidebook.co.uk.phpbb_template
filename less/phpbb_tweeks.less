@@ -34,7 +34,7 @@ dd, dt, li {
 .navbar {
   font-size: inherit;
   border-radius: 4px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 .panel {
   border-radius: 4px;
@@ -49,17 +49,17 @@ dd, dt, li {
 }
 
 #wrap {
-  border: 0px;		// remove padding
+  border: 0;		// remove padding
   margin: 0 auto;
-  padding: 0px;
+  padding: 0;
   max-width: inherit;
 }
 
 /* Fix responsive layout */
 @media (max-width: 700px) {
 .headerbar, .navbar, .forabg, .forumbg, .post, .panel {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 0;
+  margin-right: 0;
   }
 }
 
@@ -73,6 +73,11 @@ select, input[type=file], input[type=text], input[type=password], input[type=rad
   margin: auto;		// Fix input boxes
 }
 
+.uneditable-input, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="tel"], input[type="color"], input[type="search"], select, textarea {
+  border-radius: inherit;
+}
+
+
 label, input, button, select, textarea {
   line-height: inherit;  // fix submit button, input box height
 }
@@ -83,12 +88,12 @@ address, label, legend, pre {
 
 .caret {
   display: inline;
-  border-top: 0px;
-  border-right: 0px;
+  border-top: 0;
+  border-right: 0;
 }
 
 .pagination {
-  margin: 0px;
+  margin: 0;
 }
 
 h1, h2, h3 {
@@ -99,4 +104,19 @@ h1, h2, h3 {
   float: right;
   margin-top: -12px;
   margin-bottom: 0;
+}
+
+/* Notification footer */
+.footer {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: inherit;
+  background-image: none;
+}
+/* fix dropdown */
+.hidden {
+  visibility: inherit;
+}
+.buttons {
+  float: left;
 }
